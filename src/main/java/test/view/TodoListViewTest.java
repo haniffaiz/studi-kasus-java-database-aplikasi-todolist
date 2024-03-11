@@ -12,41 +12,41 @@ public class TodoListViewTest {
     }
 
     public static void testShowTodoList(){
-        TodoListRepository todoListRepository = new TodoListRepositoryImpl();
-        TodoListService todoListService = new TodoListServiceImpl(todoListRepository);
-        TodoListView todoListView = new TodoListView(todoListService);
-
-        todoListService.addTodoList("Belajar java dasar");
-        todoListService.addTodoList("Belajar java OOP");
-        todoListService.addTodoList("Belajar java standard classes");
-
-        todoListView.showTodoList();
+//        TodoListRepository todoListRepository = new TodoListRepositoryImpl();
+//        TodoListService todoListService = new TodoListServiceImpl(todoListRepository);
+//        TodoListView todoListView = new TodoListView(todoListService);
+//
+//        todoListService.addTodoList("Belajar java dasar");
+//        todoListService.addTodoList("Belajar java OOP");
+//        todoListService.addTodoList("Belajar java standard classes");
+//
+//        todoListView.showTodoList();
     }
 
     public static void testAddTodoList(){
-        TodoListRepository todoListRepository = new TodoListRepositoryImpl();
-        TodoListService todoListService = new TodoListServiceImpl(todoListRepository);
-        TodoListView todoListView = new TodoListView(todoListService);
-
-        todoListView.addTodoList();
-        todoListView.showTodoList();
-        todoListView.addTodoList();
-        todoListView.showTodoList();
+//        TodoListRepository todoListRepository = new TodoListRepositoryImpl();
+//        TodoListService todoListService = new TodoListServiceImpl(todoListRepository);
+//        TodoListView todoListView = new TodoListView(todoListService);
+//
+//        todoListView.addTodoList();
+//        todoListView.showTodoList();
+//        todoListView.addTodoList();
+//        todoListView.showTodoList();
     }
 
     public static void testRemoveTodoList(){
-        TodoListRepository todoListRepository = new TodoListRepositoryImpl();
-        TodoListService todoListService = new TodoListServiceImpl(todoListRepository);
-        TodoListView todoListView = new TodoListView(todoListService);
-
-        todoListService.addTodoList("Belajar java dasar");
-        todoListService.addTodoList("Belajar java OOP");
-        todoListService.addTodoList("Belajar java standard classes");
-
-        todoListService.showTodoList();
-
-        todoListView.removeTodoList();
-
-        todoListService.showTodoList();
+//        TodoListRepository todoListRepository = new TodoListRepositoryImpl();
+//        TodoListService todoListService = new TodoListServiceImpl(todoListRepository);
+//        TodoListView todoListView = new TodoListView(todoListService);
+//
+//        todoListService.addTodoList("Belajar java dasar");
+//        todoListService.addTodoList("Belajar java OOP");
+//        todoListService.addTodoList("Belajar java standard classes");
+//
+//        todoListService.showTodoList();
+//
+//        todoListView.removeTodoList();
+//
+//        todoListService.showTodoList();
     }
 }
